@@ -34,25 +34,43 @@ def create_db(cursor, DBNAME):
 
     return cursor
 
-def create_tb(cursor, TABLES, TBNAME=None):
-    # TABLES[TBNAME] = ("CREATE TABLE IF NOT EXISTS {}( \
-    #     `articleID` int(11) COLLATE utf8mb4_bin NOT NULL, \
-    #     `title` varchar(255) COLLATE utf8mb4_bin NOT NULL, \
-    #     `createdAt` TIMESTAMP DEFAULT 0 NOT NULL, \
-    #     `updatedAt` TIMESTAMP DEFAULT 0  NOT NULL, \
-    #     `commentCount` int(11) COLLATE utf8mb4_bin NOT NULL, \
-    #     `forumName` varchar(10) COLLATE utf8mb4_bin NOT NULL, \
-    #     `forumAlias` varchar(10) COLLATE utf8mb4_bin NOT NULL, \
-    #     `likeCount` int(11) COLLATE utf8mb4_bin NOT NULL, \
-    #     `topics` varchar(255) COLLATE utf8mb4_bin NOT NULL, \
-    #     PRIMARY KEY (`articleID`) \
-    #     )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;".format(TBNAME))
+def create_tb(cursor, TABLES, TBNAME_1=None, TBNAME_2=None):
+    # posts table
+    if TBNAME_1:
+        TABLES[TBNAME_1] = ("CREATE TABLE IF NOT EXISTS {}( \
+            `articleID` INT(11) COLLATE utf8mb4_bin NOT NULL, \
+            `author` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `forum_alias` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `created_at_utc` DATETIME DEFAULT 0 NOT NULL, \
+            `created_at_tw` DATETIME DEFAULT 0 NOT NULL, \
+            `time_string` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `title` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `topics` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `content` TEXT COLLATE utf8mb4_bin NOT NULL, \
+            `gender` CHAR(1) COLLATE utf8mb4_bin NOT NULL, \
+            `react_count` INT(11) COLLATE utf8mb4_bin NOT NULL, \
+            `comment_count` INT(11) COLLATE utf8mb4_bin NOT NULL, \
+            PRIMARY KEY (`articleID`) \
+            )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;".format(TBNAME_1))
 
-    TABLES[TBNAME] = ("CREATE TABLE IF NOT EXISTS {}( \
-            `ID` int(11) COLLATE utf8mb4_bin NOT NULL AUTO_INCREMENT, \
-            `articleID` int(11) COLLATE utf8mb4_bin NOT NULL, \
-            PRIMARY KEY (`ID`) \
-            )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;".format(TBNAME))
+    if TBNAME_2:
+        TABLES[TBNAME_2] = ("CREATE TABLE IF NOT EXISTS {}( \
+            `reactionID` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `articleID` INT(11) COLLATE utf8mb4_bin NOT NULL, \
+            `author` VARCHAR(255) COLLATE utf8mb4_bin NOT NULL, \
+            `created_at_utc` DATETIME DEFAULT 0 NOT NULL, \
+            `created_at_tw` DATETIME DEFAULT 0 NOT NULL, \
+            `content` TEXT COLLATE utf8mb4_bin NOT NULL, \
+            `like_count` INT(11) COLLATE utf8mb4_bin NOT NULL, \
+            PRIMARY KEY (`reactionID`) \
+            )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;".format(TBNAME_2))
+
+    # articles table
+    # TABLES[TBNAME] = ("CREATE TABLE IF NOT EXISTS {}( \
+    #         `ID` int(11) COLLATE utf8mb4_bin NOT NULL AUTO_INCREMENT, \
+    #         `articleID` int(11) COLLATE utf8mb4_bin NOT NULL, \
+    #         PRIMARY KEY (`ID`) \
+    #         )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;".format(TBNAME))
 
     # uff8mb4才允許中文
 
