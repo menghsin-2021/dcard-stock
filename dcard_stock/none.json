@@ -1,3 +1,4 @@
+// 測試不存在的回應 json 格式
 {
   "props": {
     "pageProps": {
@@ -6,8 +7,7 @@
         "componentInitialProps": {}
       },
       "componentInitialProps": {
-        "doorplate": "15",
-        "postId": "236659514"
+        "postId": "235313506"
       }
     },
     "isLogin": false,
@@ -248,54 +248,87 @@
         "loading": false,
         "fetched": false,
         "data": {
-          "1e28a98d-197a-4185-887d-a81cc135ced8": {
-            "id": "1e28a98d-197a-4185-887d-a81cc135ced8",
+          "735c8f90-92b9-46a5-be64-cf77744e571d": {
+            "id": "735c8f90-92b9-46a5-be64-cf77744e571d",
             "anonymous": true,
-            "postId": 236659514,
-            "createdAt": "2021-08-06T13:10:28.075Z",
-            "updatedAt": "2021-08-06T13:11:02.514Z",
-            "floor": 15,
+            "postId": 235313506,
+            "createdAt": "2021-02-08T13:55:46.115Z",
+            "updatedAt": "2021-02-08T13:55:46.115Z",
+            "floor": 1,
+            "content": "收入先減儲蓄吧",
+            "likeCount": 1,
             "withNickname": false,
+            "hiddenByAuthor": false,
             "meta": {},
-            "reportReason": "",
-            "hiddenByAuthor": true,
+            "gender": "M",
+            "school": "國立虎尾科技大學",
             "host": false,
-            "hidden": true,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
             "inReview": false,
             "reportReasonText": "",
             "isSuspiciousAccount": false,
             "isModerator": false,
-            "doorplate": "15",
-            "mediaMeta": [
-              {
-                "id": "3c6437c1-a236-4a9a-b47b-bbfafc28b273",
-                "url": "https://i.imgur.com/ECJF3XSl.jpg",
-                "normalizedUrl": "https://i.imgur.com/ECJF3XSl.jpg",
-                "thumbnail": "https://i.imgur.com/ECJF3XSl.jpg",
-                "type": "image/thumbnail",
-                "tags": [
-                  "SOURCE_DELETED"
-                ],
-                "createdAt": "2021-08-06T13:10:28.075Z",
-                "updatedAt": "2021-08-06T13:10:28.075Z",
-                "width": 2000,
-                "height": 1500
-              },
-              {
-                "id": "3c6437c1-a236-4a9a-b47b-bbfafc28b273",
-                "url": "https://i.imgur.com/ECJF3XS.jpg",
-                "normalizedUrl": "https://imgur.com/ECJF3XS",
-                "thumbnail": "https://i.imgur.com/ECJF3XSl.jpg",
-                "type": "image/imgur",
-                "tags": [
-                  "SOURCE_DELETED"
-                ],
-                "createdAt": "2021-08-06T13:10:28.075Z",
-                "updatedAt": "2021-08-06T13:10:28.075Z",
-                "width": 2000,
-                "height": 1500
-              }
-            ],
+            "doorplate": "1",
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorUid": ""
+          },
+          "15b3bbf9-8303-4159-8434-83c4dd146ce5": {
+            "id": "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+            "anonymous": true,
+            "postId": 235313506,
+            "createdAt": "2021-02-09T13:55:23.330Z",
+            "updatedAt": "2021-02-09T13:55:23.330Z",
+            "floor": 2,
+            "content": "怎麼會是收入-支出=儲蓄\n收入-儲蓄=支出才是\n儲蓄是節流，如果花費先行，支出剩下的才儲蓄，就沒有節流的意義了。\n或者應該說是收入-「預算」=儲蓄。每個月的支出要先編列好並認真施行。\n緊急預備金最好抓失業半年的生活費，如果月支出2萬最好先存12萬。",
+            "likeCount": 0,
+            "withNickname": false,
+            "hiddenByAuthor": false,
+            "meta": {},
+            "gender": "F",
+            "school": "國立臺灣藝術大學",
+            "host": false,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
+            "inReview": false,
+            "reportReasonText": "",
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "doorplate": "2",
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorUid": ""
+          },
+          "a6f70674-18c4-4182-953b-3a3dd4dd5913": {
+            "id": "a6f70674-18c4-4182-953b-3a3dd4dd5913",
+            "anonymous": true,
+            "postId": 235313506,
+            "createdAt": "2021-02-09T14:53:48.780Z",
+            "updatedAt": "2021-02-09T14:53:48.780Z",
+            "floor": 3,
+            "content": "當月收只有三萬的時候，你該想的是怎麼提升自己的本業收入，而不是把精力投入在投資市場中。",
+            "likeCount": 0,
+            "withNickname": false,
+            "hiddenByAuthor": false,
+            "meta": {},
+            "gender": "M",
+            "school": "國立政治大學",
+            "host": false,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
+            "inReview": false,
+            "reportReasonText": "",
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "doorplate": "3",
             "postAvatar": "",
             "activityAvatar": "",
             "verifiedBadge": false,
@@ -303,14 +336,33 @@
             "authorUid": ""
           }
         },
-        "paginations": {},
+        "paginations": {
+          "popular=true\u0026postId=235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": true,
+            "index": []
+          },
+          "popular=false\u0026postId=235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": false,
+            "index": [
+              "735c8f90-92b9-46a5-be64-cf77744e571d",
+              "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+              "a6f70674-18c4-4182-953b-3a3dd4dd5913"
+            ]
+          }
+        },
         "paging": {
           "head": {},
           "pageKey": {},
           "nextKey": {}
         },
         "doorplateMap": {
-          "236659514-15": "1e28a98d-197a-4185-887d-a81cc135ced8"
+          "235313506-1": "735c8f90-92b9-46a5-be64-cf77744e571d",
+          "235313506-2": "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+          "235313506-3": "a6f70674-18c4-4182-953b-3a3dd4dd5913"
         },
         "expanded": {}
       },
@@ -655,57 +707,57 @@
       },
       "post": {
         "data": {
-          "236659514": {
-            "id": "236659514",
-            "title": "想請問個蠢問題，拜託各位",
-            "content": "若今天賣掉A股票賺10000元，又買回A股票8000元，然後再買B股票2000元\n\n這樣戶頭還要存10000元進去嗎，還是抵銷不用存？",
-            "excerpt": "若今天賣掉A股票賺10000元，又買回A股票8000元，然後再買B股票2000元，這樣戶頭還要存10000元進去嗎，還是抵銷不用存？",
+          "235313506": {
+            "id": "235313506",
+            "title": "#分享 我是新手，我該如何分配收入？",
+            "content": "小弟進入股市5年左右的時間，有問題歡迎交流～\n歡迎追蹤#說股事，未來會有更多分析面的文章\n\n———以下正文———\n理財很重要，資金的分配更重要，\n因為我們不能因為要投資理財，\n而沒有錢生活吧，\n我們要先把生活顧好，\n再用多餘的錢去投資，\n這才是正確的理財方式🙆‍♂️\n\n首先要跟大家說一個簡單的公式，\n➡️ 收入-支出=儲蓄\n假設我一個月月薪3萬\n月支出為2萬（包含房租、伙食費等等...）\n剩下的1萬就是儲蓄，\n\n知道簡單公式後，\n📍首先第一步，我們要先存緊急預備金\n=月支出✖️3（是用來以備不時之需時使用）\n\n📍存好緊急預備金之後，\n之後每個月收入套入上述公式，\n剩下的資金就是能投資的資金囉～\n\n❗️資金分配很重要，\n千萬不要想投資而因小失大囉～\n\n#下篇預告 \n因個人風險偏好不同，\n理財方式也會有所不同，\n那我們該如何資產配置，\n投資又有分哪些型態呢？\n\n👏有問題歡迎留言或私訊小盒子 \n♥️喜歡記得按讚，分享 #說股事\nhttps://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0",
+            "excerpt": "小弟進入股市5年左右的時間，有問題歡迎交流～歡迎追蹤#說股事，未來會有更多分析面的文章，———以下正文———，理財很重要，資金的分配更重要，因為我們不能因為要投資理財，而沒有錢生活吧，我們要先把生活顧",
             "anonymousSchool": false,
-            "anonymousDepartment": true,
+            "anonymousDepartment": false,
             "pinned": false,
             "forumId": "2fb88b62-aa28-4b18-af51-dda08dd037a9",
             "replyId": null,
-            "createdAt": "2021-08-06T09:54:46.599Z",
-            "updatedAt": "2021-08-06T09:54:46.599Z",
-            "commentCount": 71,
-            "likeCount": 63,
-            "tags": [
-              "HIDE_THUMBNAIL"
-            ],
+            "createdAt": "2021-02-08T03:58:35.833Z",
+            "updatedAt": "2021-02-08T03:58:35.833Z",
+            "commentCount": 3,
+            "likeCount": 72,
+            "tags": [],
             "topics": [
-              "拜託",
+              "新手",
               "投資",
-              "股票"
+              "理財",
+              "股票",
+              "台股"
             ],
             "supportedReactions": null,
-            "withNickname": false,
+            "withNickname": true,
             "reportReason": "",
             "hiddenByAuthor": false,
             "meta": {
-              "layout": "classic"
+              "layout": "link"
             },
             "forumName": "股票",
             "forumAlias": "stock",
             "nsfw": false,
-            "school": "仁德醫護管理專科學校",
+            "school": "IG搜尋#說股事",
+            "department": "eddie.cheng",
             "replyTitle": null,
-            "gender": "F",
+            "gender": "M",
             "personaSubscriptable": true,
             "reactions": [
               {
                 "id": "286f599c-f86a-4932-82f0-f5a06f1eca03",
-                "count": 62
-              },
-              {
-                "id": "514c2569-fd53-4d9d-a415-bf0f88e7329f",
-                "count": 1
+                "count": 72
               }
             ],
             "hidden": false,
             "customStyle": {
+              "label": {
+                "bgColor": "#CCCCCC",
+                "text": "連結分享"
+              },
               "showCreatedAt": true,
               "showHeaderForum": true,
-              "label": null,
               "headerColor": null,
               "showAds": true,
               "darsysType": "similarPosts",
@@ -715,9 +767,13 @@
             },
             "isSuspiciousAccount": false,
             "isModerator": false,
-            "layout": "classic",
+            "layout": "link",
             "spoilerAlert": false,
-            "totalCommentCount": 71,
+            "categories": [
+              "分享"
+            ],
+            "totalCommentCount": 3,
+            "link": "https://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0",
             "withImages": false,
             "withVideos": false,
             "media": [],
@@ -730,27 +786,27 @@
             "memberType": "",
             "authorName": {
               "type": "string",
-              "message": "仁德醫護管理專科學校"
+              "message": "IG搜尋#說股事"
             },
-            "authorUid": "",
+            "authorUid": "eddie.cheng",
             "titleSegments": [
               {
-                "text": "想請問個蠢問題，拜託各位"
+                "text": "#分享 我是新手，我該如何分配收入？"
               }
             ],
             "contentSegments": [
               {
-                "text": "若今天賣掉A股票賺10000元，又買回A股票8000元，然後再買B股票2000元\n\n這樣戶頭還要存10000元進去嗎，還是抵銷不用存？"
+                "text": "小弟進入股市5年左右的時間，有問題歡迎交流～\n歡迎追蹤#說股事，未來會有更多分析面的文章\n\n———以下正文———\n理財很重要，資金的分配更重要，\n因為我們不能因為要投資理財，\n而沒有錢生活吧，\n我們要先把生活顧好，\n再用多餘的錢去投資，\n這才是正確的理財方式🙆‍♂️\n\n首先要跟大家說一個簡單的公式，\n➡️ 收入-支出=儲蓄\n假設我一個月月薪3萬\n月支出為2萬（包含房租、伙食費等等...）\n剩下的1萬就是儲蓄，\n\n知道簡單公式後，\n📍首先第一步，我們要先存緊急預備金\n=月支出✖️3（是用來以備不時之需時使用）\n\n📍存好緊急預備金之後，\n之後每個月收入套入上述公式，\n剩下的資金就是能投資的資金囉～\n\n❗️資金分配很重要，\n千萬不要想投資而因小失大囉～\n\n#下篇預告 \n因個人風險偏好不同，\n理財方式也會有所不同，\n那我們該如何資產配置，\n投資又有分哪些型態呢？\n\n👏有問題歡迎留言或私訊小盒子 \n♥️喜歡記得按讚，分享 #說股事\nhttps://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0"
               }
             ],
             "excerptSegments": [
               {
-                "text": "若今天賣掉A股票賺10000元，又買回A股票8000元，然後再買B股票2000元，這樣戶頭還要存10000元進去嗎，還是抵銷不用存？"
+                "text": "小弟進入股市5年左右的時間，有問題歡迎交流～歡迎追蹤#說股事，未來會有更多分析面的文章，———以下正文———，理財很重要，資金的分配更重要，因為我們不能因為要投資理財，而沒有錢生活吧，我們要先把生活顧"
               }
             ],
-            "reactionCount": 63,
+            "reactionCount": 72,
             "goodMediaMeta": [],
-            "timeString": "8月6日 17:54",
+            "timeString": "2月8日 11:58",
             "isEC": false,
             "isECSharing": false,
             "enableAd": true
@@ -773,7 +829,7 @@
         },
         "listKeyOfPages": {},
         "idOfPrimaryKeys": {
-          "236659514": "236659514"
+          "235313506": "235313506"
         },
         "elevated": null,
         "errorDetails": {},
@@ -1051,7 +1107,14 @@
         "loading": false,
         "fetched": false,
         "data": {},
-        "paginations": {},
+        "paginations": {
+          "235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": true,
+            "index": []
+          }
+        },
         "paging": {
           "head": {},
           "pageKey": {},
@@ -1310,13 +1373,12 @@
     "isWebView": false,
     "locale": "zh-TW"
   },
-  "page": "/comment",
+  "page": "/post",
   "query": {
     "forumAlias": "stock",
-    "postId": "236659514",
-    "commentDoorplate": "15"
+    "postId": "235313506"
   },
-  "buildId": "563c57fc0fc8f346598d88ef380a22efe302926d",
+  "buildId": "ae5953cc296703582e6e53c6b7f9373699f086e1",
   "runtimeConfig": {
     "facebook": {
       "clientId": "211628828926493",
@@ -1335,13 +1397,13 @@
       "id": "6LdNi5gUAAAAAFQ1jM75Mk82ptVmzA4npgfaPcd1"
     },
     "sentry": {
-      "release": "dcard-web@1.449.1",
+      "release": "dcard-web@1.450.0",
       "sampleRate": 0.1,
       "environment": "production",
       "dsn": "https://6f4e12f41da04a64a46d3afec82e1277@sentry.io/1518416"
     },
     "userAgent": "dcard-web",
-    "version": "1.449.1",
+    "version": "1.450.0",
     "defaultReactionId": "286f599c-f86a-4932-82f0-f5a06f1eca03",
     "vivid": {
       "endpoint": "https://vivid.dcard.tw"
@@ -1407,6 +1469,7 @@
   "dynamicIds": [
     12336,
     7760,
+    29229,
     62991
   ],
   "customServer": true,
