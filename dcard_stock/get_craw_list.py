@@ -21,7 +21,7 @@ sql = "SELECT `articleID` FROM `distinctid_articles` ORDER BY `ID` DESC"
 cursor.execute(sql)
 article_list = [row[0] for row in cursor.fetchall()]
 # connect_db.close()
-article_list_rest = article_list[4552:]
+article_list_rest = article_list[7366:]
 print(len(article_list))
 print(article_list_rest)
 # count = 11 開始

@@ -1,0 +1,1479 @@
+// 測試不存在的回應 json 格式
+{
+  "props": {
+    "pageProps": {
+      "layoutInitialProps": {
+        "layoutInitialProps": {},
+        "componentInitialProps": {}
+      },
+      "componentInitialProps": {
+        "postId": "235313506"
+      }
+    },
+    "isLogin": false,
+    "isMobile": false,
+    "initialState": {
+      "adItem": {
+        "data": {
+          "558bae61-cb3c-4604-b281-473b6bf1047d": [],
+          "f0fc1371-7da6-472b-be89-6392f8869ea4": [],
+          "2ff05f32-46b1-480c-9a6d-6ccbe55b7699": [],
+          "a0d23a73-66bb-4704-af18-286c6b0292f9": [],
+          "63463c6f-e951-4d18-b559-6e6c5e629ec3": [],
+          "e7b65598-5ac3-4c4e-83e5-255e6f68ad2a": [],
+          "d1555d99-c344-499a-b0ee-fadfa2f2b216": [],
+          "6a22a168-984d-4347-bd30-4a6caa25fff7": [],
+          "943f7a58-e434-407f-9e79-a95dbcfd4549": [],
+          "adUnitId=558bae61-cb3c-4604-b281-473b6bf1047d": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Right-Top"
+            }
+          ],
+          "adUnitId=f0fc1371-7da6-472b-be89-6392f8869ea4": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Beyond-FB"
+            }
+          ],
+          "adUnitId=2ff05f32-46b1-480c-9a6d-6ccbe55b7699": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Right3"
+            }
+          ],
+          "adUnitId=a0d23a73-66bb-4704-af18-286c6b0292f9": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Right4"
+            }
+          ],
+          "adUnitId=63463c6f-e951-4d18-b559-6e6c5e629ec3": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-RightBottom-Bottom"
+            }
+          ],
+          "adUnitId=e7b65598-5ac3-4c4e-83e5-255e6f68ad2a": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Article-Bottom"
+            }
+          ],
+          "adUnitId=d1555d99-c344-499a-b0ee-fadfa2f2b216": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Comments"
+            }
+          ],
+          "adUnitId=e4d31040-b6b8-4479-9585-a28bd1c16832": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mobile-Web-Screen-Top"
+            }
+          ],
+          "adUnitId=0c24cee5-97e0-486b-9dc1-b7d36bea93cb": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mobile-Web-Article-End"
+            }
+          ],
+          "adUnitId=49317a19-f96f-42df-9dee-76bf1d62b6f9": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mweb-Popular-Comments"
+            }
+          ],
+          "adUnitId=b29a047c-6238-449a-8355-2b5651ebe5b1": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mweb-Comments"
+            }
+          ],
+          "adUnitId=88647537-2142-4839-88d4-780a6b7bf0e4": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mobile-Web-Screen-Bottom"
+            }
+          ],
+          "adUnitId=63034007-a933-46ae-81cc-a9dce1a2552d": [
+            {
+              "provider": "google",
+              "id": "/146730420/Dtto-Desktop-Right-1st"
+            }
+          ],
+          "adUnitId=54cf0302-f980-4dd4-8c7c-2ff9f35814e1": [
+            {
+              "provider": "google",
+              "id": "/146730420/Dtto-Desktop-Right-2nd"
+            }
+          ],
+          "adUnitId=ee599045-c028-478a-9a86-72ea8360116e": [
+            {
+              "provider": "google",
+              "id": "/146730420/Dtto-Desktop-Right-3rd"
+            }
+          ],
+          "adUnitId=765edf71-161b-4156-9cf5-09a9bbe761b7": [
+            {
+              "provider": "google",
+              "id": "/146730420/Dtto-Mobile-Post-Bottom"
+            }
+          ],
+          "adUnitId=25bbf134-6c3c-4eac-8e00-0f922cff0434": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-1x1-Custom-1"
+            }
+          ],
+          "adUnitId=6a22a168-984d-4347-bd30-4a6caa25fff7": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Post-Feed-Native"
+            }
+          ],
+          "adUnitId=2d81240e-5833-4395-b2f7-854b5966173c": [
+            {
+              "provider": "google",
+              "id": "/146730420/Mobile-Post-Feed-Native"
+            }
+          ],
+          "adUnitId=943f7a58-e434-407f-9e79-a95dbcfd4549": [
+            {
+              "provider": "google",
+              "id": "/146730420/Desktop-Darsys-Item-Native"
+            }
+          ]
+        },
+        "error": null,
+        "loading": false,
+        "fetched": true
+      },
+      "adMessage": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "adUnit": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "app": {
+        "loading": false,
+        "fetched": false,
+        "data": {
+          "product": "Dcard",
+          "isLogin": false,
+          "isMobile": false,
+          "isWebView": false,
+          "ipCountry": "TW",
+          "locale": "zh-TW",
+          "supportedLanguages": [
+            "zh-TW"
+          ],
+          "isFirstLoad": true,
+          "isPullup": false,
+          "issuerURL": "https://id.dcard.tw"
+        }
+      },
+      "auth": {
+        "socialLogin": {},
+        "appleLogin": {}
+      },
+      "banner": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "bookmark": {
+        "loading": false,
+        "fetched": false,
+        "data": []
+      },
+      "campaignSite": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "channel": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "unread": 0
+      },
+      "collection": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "comment": {
+        "loading": false,
+        "fetched": false,
+        "data": {
+          "735c8f90-92b9-46a5-be64-cf77744e571d": {
+            "id": "735c8f90-92b9-46a5-be64-cf77744e571d",
+            "anonymous": true,
+            "postId": 235313506,
+            "createdAt": "2021-02-08T13:55:46.115Z",
+            "updatedAt": "2021-02-08T13:55:46.115Z",
+            "floor": 1,
+            "content": "收入先減儲蓄吧",
+            "likeCount": 1,
+            "withNickname": false,
+            "hiddenByAuthor": false,
+            "meta": {},
+            "gender": "M",
+            "school": "國立虎尾科技大學",
+            "host": false,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
+            "inReview": false,
+            "reportReasonText": "",
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "doorplate": "1",
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorUid": ""
+          },
+          "15b3bbf9-8303-4159-8434-83c4dd146ce5": {
+            "id": "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+            "anonymous": true,
+            "postId": 235313506,
+            "createdAt": "2021-02-09T13:55:23.330Z",
+            "updatedAt": "2021-02-09T13:55:23.330Z",
+            "floor": 2,
+            "content": "怎麼會是收入-支出=儲蓄\n收入-儲蓄=支出才是\n儲蓄是節流，如果花費先行，支出剩下的才儲蓄，就沒有節流的意義了。\n或者應該說是收入-「預算」=儲蓄。每個月的支出要先編列好並認真施行。\n緊急預備金最好抓失業半年的生活費，如果月支出2萬最好先存12萬。",
+            "likeCount": 0,
+            "withNickname": false,
+            "hiddenByAuthor": false,
+            "meta": {},
+            "gender": "F",
+            "school": "國立臺灣藝術大學",
+            "host": false,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
+            "inReview": false,
+            "reportReasonText": "",
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "doorplate": "2",
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorUid": ""
+          },
+          "a6f70674-18c4-4182-953b-3a3dd4dd5913": {
+            "id": "a6f70674-18c4-4182-953b-3a3dd4dd5913",
+            "anonymous": true,
+            "postId": 235313506,
+            "createdAt": "2021-02-09T14:53:48.780Z",
+            "updatedAt": "2021-02-09T14:53:48.780Z",
+            "floor": 3,
+            "content": "當月收只有三萬的時候，你該想的是怎麼提升自己的本業收入，而不是把精力投入在投資市場中。",
+            "likeCount": 0,
+            "withNickname": false,
+            "hiddenByAuthor": false,
+            "meta": {},
+            "gender": "M",
+            "school": "國立政治大學",
+            "host": false,
+            "reportReason": "",
+            "mediaMeta": [],
+            "hidden": false,
+            "inReview": false,
+            "reportReasonText": "",
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "doorplate": "3",
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorUid": ""
+          }
+        },
+        "paginations": {
+          "popular=true\u0026postId=235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": true,
+            "index": []
+          },
+          "popular=false\u0026postId=235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": false,
+            "index": [
+              "735c8f90-92b9-46a5-be64-cf77744e571d",
+              "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+              "a6f70674-18c4-4182-953b-3a3dd4dd5913"
+            ]
+          }
+        },
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "doorplateMap": {
+          "235313506-1": "735c8f90-92b9-46a5-be64-cf77744e571d",
+          "235313506-2": "15b3bbf9-8303-4159-8434-83c4dd146ce5",
+          "235313506-3": "a6f70674-18c4-4182-953b-3a3dd4dd5913"
+        },
+        "expanded": {}
+      },
+      "commentDraft": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "configs": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "country": {
+        "data": {},
+        "loading": false,
+        "fetched": false
+      },
+      "dadasCampaign": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "dadasCampaignStatus": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "dadasSurveyTeam": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "dcard": {
+        "data": {},
+        "error": null,
+        "loading": false,
+        "fetched": false
+      },
+      "def": {},
+      "delayModal": {
+        "stack": []
+      },
+      "department": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "email": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "extension": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "fastpass": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "forum": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {},
+        "loading": false
+      },
+      "floatingBanner": {
+        "showForceLoginBanner": false,
+        "showMobileBottomBanner": true,
+        "isLoginConfirmModalShow": false,
+        "manualHideMobileBannerExperiment": false
+      },
+      "forumBulletin": {
+        "data": {},
+        "error": null,
+        "loading": false,
+        "fetched": false
+      },
+      "forumCategory": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "forumValidation": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "friend": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "giftbox": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "hawkeye": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "hawkeyeOpWidget": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "hermes": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "identifier": {
+        "value": ""
+      },
+      "identity": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "identityCard": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "identityStatus": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "image": {
+        "data": {}
+      },
+      "impression": {
+        "sent": {},
+        "currentList": ""
+      },
+      "indictment": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "linkAttachment": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "locale": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "subpx": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "megapxImage": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "megapxVideo": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "message": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "messageDraft": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "moderator": {
+        "ruleDescription": {},
+        "bucketDaysInfo": {},
+        "postCategory": {}
+      },
+      "notification": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "unread": 0,
+        "unseen": 0
+      },
+      "persona": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "indictmentRulesMap": {}
+      },
+      "photo": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "petition": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "stats": {
+          "members": 0,
+          "schools": 0
+        }
+      },
+      "post": {
+        "data": {
+          "235313506": {
+            "id": "235313506",
+            "title": "#分享 我是新手，我該如何分配收入？",
+            "content": "小弟進入股市5年左右的時間，有問題歡迎交流～\n歡迎追蹤#說股事，未來會有更多分析面的文章\n\n———以下正文———\n理財很重要，資金的分配更重要，\n因為我們不能因為要投資理財，\n而沒有錢生活吧，\n我們要先把生活顧好，\n再用多餘的錢去投資，\n這才是正確的理財方式🙆‍♂️\n\n首先要跟大家說一個簡單的公式，\n➡️ 收入-支出=儲蓄\n假設我一個月月薪3萬\n月支出為2萬（包含房租、伙食費等等...）\n剩下的1萬就是儲蓄，\n\n知道簡單公式後，\n📍首先第一步，我們要先存緊急預備金\n=月支出✖️3（是用來以備不時之需時使用）\n\n📍存好緊急預備金之後，\n之後每個月收入套入上述公式，\n剩下的資金就是能投資的資金囉～\n\n❗️資金分配很重要，\n千萬不要想投資而因小失大囉～\n\n#下篇預告 \n因個人風險偏好不同，\n理財方式也會有所不同，\n那我們該如何資產配置，\n投資又有分哪些型態呢？\n\n👏有問題歡迎留言或私訊小盒子 \n♥️喜歡記得按讚，分享 #說股事\nhttps://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0",
+            "excerpt": "小弟進入股市5年左右的時間，有問題歡迎交流～歡迎追蹤#說股事，未來會有更多分析面的文章，———以下正文———，理財很重要，資金的分配更重要，因為我們不能因為要投資理財，而沒有錢生活吧，我們要先把生活顧",
+            "anonymousSchool": false,
+            "anonymousDepartment": false,
+            "pinned": false,
+            "forumId": "2fb88b62-aa28-4b18-af51-dda08dd037a9",
+            "replyId": null,
+            "createdAt": "2021-02-08T03:58:35.833Z",
+            "updatedAt": "2021-02-08T03:58:35.833Z",
+            "commentCount": 3,
+            "likeCount": 72,
+            "tags": [],
+            "topics": [
+              "新手",
+              "投資",
+              "理財",
+              "股票",
+              "台股"
+            ],
+            "supportedReactions": null,
+            "withNickname": true,
+            "reportReason": "",
+            "hiddenByAuthor": false,
+            "meta": {
+              "layout": "link"
+            },
+            "forumName": "股票",
+            "forumAlias": "stock",
+            "nsfw": false,
+            "school": "IG搜尋#說股事",
+            "department": "eddie.cheng",
+            "replyTitle": null,
+            "gender": "M",
+            "personaSubscriptable": true,
+            "reactions": [
+              {
+                "id": "286f599c-f86a-4932-82f0-f5a06f1eca03",
+                "count": 72
+              }
+            ],
+            "hidden": false,
+            "customStyle": {
+              "label": {
+                "bgColor": "#CCCCCC",
+                "text": "連結分享"
+              },
+              "showCreatedAt": true,
+              "showHeaderForum": true,
+              "headerColor": null,
+              "showAds": true,
+              "darsysType": "similarPosts",
+              "showPopularComments": true,
+              "enableShopButton": false,
+              "enableSurveyButton": false
+            },
+            "isSuspiciousAccount": false,
+            "isModerator": false,
+            "layout": "link",
+            "spoilerAlert": false,
+            "categories": [
+              "分享"
+            ],
+            "totalCommentCount": 3,
+            "link": "https://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0",
+            "withImages": false,
+            "withVideos": false,
+            "media": [],
+            "reportReasonText": "",
+            "mediaMeta": [],
+            "excerptComments": [],
+            "postAvatar": "",
+            "activityAvatar": "",
+            "verifiedBadge": false,
+            "memberType": "",
+            "authorName": {
+              "type": "string",
+              "message": "IG搜尋#說股事"
+            },
+            "authorUid": "eddie.cheng",
+            "titleSegments": [
+              {
+                "text": "#分享 我是新手，我該如何分配收入？"
+              }
+            ],
+            "contentSegments": [
+              {
+                "text": "小弟進入股市5年左右的時間，有問題歡迎交流～\n歡迎追蹤#說股事，未來會有更多分析面的文章\n\n———以下正文———\n理財很重要，資金的分配更重要，\n因為我們不能因為要投資理財，\n而沒有錢生活吧，\n我們要先把生活顧好，\n再用多餘的錢去投資，\n這才是正確的理財方式🙆‍♂️\n\n首先要跟大家說一個簡單的公式，\n➡️ 收入-支出=儲蓄\n假設我一個月月薪3萬\n月支出為2萬（包含房租、伙食費等等...）\n剩下的1萬就是儲蓄，\n\n知道簡單公式後，\n📍首先第一步，我們要先存緊急預備金\n=月支出✖️3（是用來以備不時之需時使用）\n\n📍存好緊急預備金之後，\n之後每個月收入套入上述公式，\n剩下的資金就是能投資的資金囉～\n\n❗️資金分配很重要，\n千萬不要想投資而因小失大囉～\n\n#下篇預告 \n因個人風險偏好不同，\n理財方式也會有所不同，\n那我們該如何資產配置，\n投資又有分哪些型態呢？\n\n👏有問題歡迎留言或私訊小盒子 \n♥️喜歡記得按讚，分享 #說股事\nhttps://www.instagram.com/p/CK3MBMUH_pG/?igshid=h9l7il4g4ha0"
+              }
+            ],
+            "excerptSegments": [
+              {
+                "text": "小弟進入股市5年左右的時間，有問題歡迎交流～歡迎追蹤#說股事，未來會有更多分析面的文章，———以下正文———，理財很重要，資金的分配更重要，因為我們不能因為要投資理財，而沒有錢生活吧，我們要先把生活顧"
+              }
+            ],
+            "reactionCount": 72,
+            "goodMediaMeta": [],
+            "timeString": "2月8日 11:58",
+            "isEC": false,
+            "isECSharing": false,
+            "enableAd": true
+          }
+        },
+        "error": null,
+        "paginations": {
+          "default": {
+            "fetched": true,
+            "error": null,
+            "index": [],
+            "loading": false,
+            "noMore": false
+          }
+        },
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {
+          "235313506": "235313506"
+        },
+        "elevated": null,
+        "errorDetails": {},
+        "infiniteIndices": {}
+      },
+      "postCategory": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "postDraft": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "ranking": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "reaction": {
+        "loading": true,
+        "fetched": false,
+        "data": {
+          "aa0d425f-d530-4478-9a77-fe3aedc79eea": {
+            "id": "aa0d425f-d530-4478-9a77-fe3aedc79eea",
+            "name": "森77",
+            "url": "https://megapx-assets.dcard.tw/images/9e806d2a-abda-4635-80a5-72b566d5c53c/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/042b27f9-b507-473b-8f36-654aedcc37df/orig.png",
+            "position": 1,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Angry",
+                "ja-JP": "怒り",
+                "zh-TW": "森77"
+              }
+            },
+            "createdAt": "2018-10-01T07:19:03.922Z",
+            "updatedAt": "2020-09-17T03:38:21.226Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "514c2569-fd53-4d9d-a415-bf0f88e7329f": {
+            "id": "514c2569-fd53-4d9d-a415-bf0f88e7329f",
+            "name": "嗚嗚",
+            "url": "https://megapx-assets.dcard.tw/images/ac0053ae-cc67-48c1-a553-6d3c24e9dcec/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/039a093e-93ec-476c-976c-4a53b9b6d11c/orig.png",
+            "position": 3,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Sad",
+                "ja-JP": "悲しい",
+                "zh-TW": "嗚嗚"
+              }
+            },
+            "createdAt": "2018-10-01T07:19:03.922Z",
+            "updatedAt": "2020-09-17T03:38:54.045Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "011ead16-9b83-4729-9fde-c588920c6c2d": {
+            "id": "011ead16-9b83-4729-9fde-c588920c6c2d",
+            "name": "跪",
+            "url": "https://megapx-assets.dcard.tw/images/0daf1c9e-0a4d-44ac-9d2a-c623beda90b3/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/8ba704c3-2661-4f21-b874-fb28ee5e22ef/orig.png",
+            "position": 5,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Kneel",
+                "ja-JP": "ひざまずく",
+                "zh-TW": "跪"
+              }
+            },
+            "createdAt": "2018-10-01T07:19:03.922Z",
+            "updatedAt": "2021-08-08T15:06:50.833Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "4b018f48-e184-445f-adf1-fc8e04ba09b9": {
+            "id": "4b018f48-e184-445f-adf1-fc8e04ba09b9",
+            "name": "驚訝",
+            "url": "https://megapx-assets.dcard.tw/images/f86d9611-64c0-4821-8b62-7352d7691686/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/2484e51a-2cdc-4f0e-a4ea-8d80b4589762/orig.png",
+            "position": 7,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Wow",
+                "ja-JP": "驚き",
+                "zh-TW": "驚訝"
+              }
+            },
+            "createdAt": "2018-10-01T07:19:03.922Z",
+            "updatedAt": "2020-09-17T03:39:23.180Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "e8e6bc5d-41b0-4129-b134-97507523d7ff": {
+            "id": "e8e6bc5d-41b0-4129-b134-97507523d7ff",
+            "name": "哈哈",
+            "url": "https://megapx-assets.dcard.tw/images/be70b0c8-4c28-436d-8747-0197ede9e95f/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/9a7cc9af-9f81-43ea-8d9b-968a6441ae51/orig.png",
+            "position": 9,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Haha",
+                "ja-JP": "笑い",
+                "zh-TW": "哈哈"
+              }
+            },
+            "createdAt": "2018-10-01T07:19:03.922Z",
+            "updatedAt": "2020-09-17T03:39:36.921Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "f4ab5118-bf78-40df-9531-b6f3817050cc": {
+            "id": "f4ab5118-bf78-40df-9531-b6f3817050cc",
+            "name": "已下架",
+            "url": "https://megapx-assets.dcard.tw/images/15ec3de2-0cde-4eaa-96cb-7b420b7d0d3e/full.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/15ec3de2-0cde-4eaa-96cb-7b420b7d0d3e/full.png",
+            "position": 10,
+            "startAt": "2020-08-18T02:57:39.000Z",
+            "endAt": "2020-08-30T03:52:19.000Z",
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "",
+                "ja-JP": "関心",
+                "zh-TW": "關心"
+              }
+            },
+            "createdAt": "2020-08-19T02:58:01.004Z",
+            "updatedAt": "2020-08-31T03:52:26.025Z",
+            "deletedAt": null,
+            "active": false,
+            "isGeneral": true
+          },
+          "9089dd9e-e158-4909-9da9-5de98bdb29a5": {
+            "id": "9089dd9e-e158-4909-9da9-5de98bdb29a5",
+            "name": "已下架",
+            "url": "https://megapx-assets.dcard.tw/images/7afffd05-3fbb-4fff-bb1a-d232180b9425/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/d1ac69fb-663a-4c44-b188-41bbe7410e8c/orig.png",
+            "position": 10,
+            "startAt": "2021-07-26T10:43:07.000Z",
+            "endAt": "2021-08-08T15:05:47.000Z",
+            "rules": {
+              "isGeneral": false
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Fighting",
+                "ja-JP": "応援",
+                "zh-TW": "集氣"
+              }
+            },
+            "createdAt": "2021-07-26T09:08:23.272Z",
+            "updatedAt": "2021-08-08T15:06:00.962Z",
+            "deletedAt": null,
+            "active": false,
+            "isGeneral": false
+          },
+          "286f599c-f86a-4932-82f0-f5a06f1eca03": {
+            "id": "286f599c-f86a-4932-82f0-f5a06f1eca03",
+            "name": "愛心",
+            "url": "https://megapx-assets.dcard.tw/images/09a9f9ab-669e-4a73-9f0f-99f1d0686c46/orig.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/52057289-337a-4f2f-88c0-cb8a77ee422a/orig.png",
+            "position": 11,
+            "startAt": "2018-01-01T00:00:00.000Z",
+            "endAt": null,
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "Like",
+                "ja-JP": "いいね！",
+                "zh-TW": "愛心"
+              }
+            },
+            "createdAt": "2018-09-17T06:19:50.063Z",
+            "updatedAt": "2020-09-17T03:39:52.431Z",
+            "deletedAt": null,
+            "active": true,
+            "isGeneral": true
+          },
+          "ba4ebb00-877f-4dbc-8ba2-5ee60a4d0c5c": {
+            "id": "ba4ebb00-877f-4dbc-8ba2-5ee60a4d0c5c",
+            "name": "已下架",
+            "url": "https://gcs.dcard.tw/reaction/ba4ebb00-877f-4dbc-8ba2-5ee60a4d0c5c1539664467287.png",
+            "thumbnail": "https://gcs.dcard.tw/reaction/ba4ebb00-877f-4dbc-8ba2-5ee60a4d0c5c1539664467287.png",
+            "position": 100,
+            "startAt": "2018-10-16T04:35:50.000Z",
+            "endAt": "2018-10-16T04:57:32.000Z",
+            "rules": {
+              "isGeneral": false
+            },
+            "meta": {
+              "localeNames": {
+                "en-US": "",
+                "ja-JP": "うんち",
+                "zh-TW": "神秘便便"
+              }
+            },
+            "createdAt": "2018-10-16T04:34:27.803Z",
+            "updatedAt": "2018-10-16T04:54:57.950Z",
+            "deletedAt": null,
+            "active": false,
+            "isGeneral": false
+          },
+          "a9b7ae13-9e7b-4c6b-9d00-0e227c30ba18": {
+            "id": "a9b7ae13-9e7b-4c6b-9d00-0e227c30ba18",
+            "name": "已下架",
+            "url": "https://megapx-assets.dcard.tw/images/a7061180-d673-4a13-954d-3e7ae76951cf/full.png",
+            "thumbnail": "https://megapx-assets.dcard.tw/images/a7061180-d673-4a13-954d-3e7ae76951cf/full.png",
+            "position": 1000,
+            "startAt": "2019-09-01T04:06:57.000Z",
+            "endAt": "2020-08-31T04:06:57.000Z",
+            "rules": {
+              "isGeneral": true
+            },
+            "meta": null,
+            "createdAt": "2020-09-01T04:07:23.435Z",
+            "updatedAt": "2020-09-01T04:07:23.435Z",
+            "deletedAt": null,
+            "active": false,
+            "isGeneral": true
+          }
+        }
+      },
+      "recommendedPost": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {
+          "235313506": {
+            "loading": false,
+            "fetched": true,
+            "noMore": true,
+            "index": []
+          }
+        },
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "region": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "defaultRegionCode": "TW",
+        "guestCookieRegionCode": ""
+      },
+      "remoteConfig": {
+        "loading": false,
+        "fetched": true,
+        "data": {
+          "desktop_web_ad_refresh_ttl_sec": 30,
+          "desktop_web_ad_darsys_native": [
+            false,
+            false
+          ],
+          "hot_comments_hidden_post_authors": [
+            "dcardadangel",
+            "dcardecangel",
+            "dcardsvangel",
+            "little_angel"
+          ],
+          "mobile_normal_forum_comment_hover_experiment": false
+        }
+      },
+      "rule": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "searchHistory": {
+        "data": {}
+      },
+      "searchKeyword": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "school": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "forumAliasMap": {},
+        "forumAliasPending": {}
+      },
+      "story": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {}
+      },
+      "sudo": {},
+      "surveyTeamLastSeenTime": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "tab": {
+        "data": {},
+        "error": null,
+        "loading": false,
+        "fetched": false
+      },
+      "tagging": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "topic": {
+        "data": {},
+        "error": null,
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "listKeyOfPages": {},
+        "idOfPrimaryKeys": {},
+        "loading": false
+      },
+      "topicSuggestion": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "user": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "fields": {},
+        "fieldsLoadingState": {
+          "loading": false,
+          "fetched": false
+        }
+      },
+      "videoEngagement": {
+        "previousEmitKey": "",
+        "previousSourceKey": "",
+        "eventId": "",
+        "switchCount": 0
+      },
+      "voteStatus": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "aliasToIdMap": {}
+      },
+      "haowuCampaign": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "orderForm": {
+        "shipFeeList": [],
+        "coupons": [],
+        "member": {
+          "commonStores": [],
+          "commonAddressList": [],
+          "invoiceVehicle": null,
+          "invoicePhoneId": null,
+          "invoiceHumanId": null,
+          "companyInfo": null
+        },
+        "correctedOrder": {},
+        "orderCorrecting": false,
+        "orderCorrectError": false,
+        "orderCorrectErrorState": {},
+        "orderHasBeenCorrected": false,
+        "getShipFeeLoading": false,
+        "orderValidating": false,
+        "orderValidateError": false,
+        "orderValidateErrorState": {},
+        "ecPaymentInfo": {
+          "orderItemId": "",
+          "showExitConfirmation": true
+        }
+      },
+      "order": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "catalog": {},
+      "catalogWidget": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        },
+        "widgetInfo": {}
+      },
+      "catalogImpression": {
+        "sent": {}
+      },
+      "goodCategory": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "goodItem": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "paginations": {},
+        "paging": {
+          "head": {},
+          "pageKey": {},
+          "nextKey": {}
+        }
+      },
+      "ecLinkPreview": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      },
+      "pss": {
+        "loading": false,
+        "fetched": false,
+        "data": {},
+        "sharingForums": {},
+        "parametersMap": {}
+      },
+      "pssDraft": {
+        "loading": false,
+        "fetched": false,
+        "data": {}
+      }
+    },
+    "store": {},
+    "isWebView": false,
+    "locale": "zh-TW"
+  },
+  "page": "/post",
+  "query": {
+    "forumAlias": "stock",
+    "postId": "235313506"
+  },
+  "buildId": "ae5953cc296703582e6e53c6b7f9373699f086e1",
+  "runtimeConfig": {
+    "facebook": {
+      "clientId": "211628828926493",
+      "version": "v8.0"
+    },
+    "google": {
+      "clientId": "578393968383-gb01vrjja5mcgsgpih2coq90nbernk39.apps.googleusercontent.com"
+    },
+    "imgur": {
+      "clientId": "f0ea04148a54268"
+    },
+    "isEnvProd": true,
+    "isNodeEnvProd": true,
+    "recaptcha": {
+      "site": "345541453",
+      "id": "6LdNi5gUAAAAAFQ1jM75Mk82ptVmzA4npgfaPcd1"
+    },
+    "sentry": {
+      "release": "dcard-web@1.450.0",
+      "sampleRate": 0.1,
+      "environment": "production",
+      "dsn": "https://6f4e12f41da04a64a46d3afec82e1277@sentry.io/1518416"
+    },
+    "userAgent": "dcard-web",
+    "version": "1.450.0",
+    "defaultReactionId": "286f599c-f86a-4932-82f0-f5a06f1eca03",
+    "vivid": {
+      "endpoint": "https://vivid.dcard.tw"
+    },
+    "dcard": {
+      "domain": "www.dcard.tw",
+      "bilanx": {
+        "host": "https://bilanx.dcard.tw"
+      },
+      "googleAnalytics": {
+        "trackId": "UA-27831574-1"
+      },
+      "googleTagManager": {
+        "gtmId": "GTM-TWLTW4M"
+      },
+      "alexa": {
+        "domain": "dcard.tw",
+        "trackId": "gj89j1a8Dy000J"
+      },
+      "comScore": {
+        "trackId": "33827916"
+      },
+      "pptr": {
+        "host": "https://pptr.dcard.tw"
+      },
+      "megapx": {
+        "host": "https://megapx.dcard.tw"
+      },
+      "sso": {
+        "enabled": true
+      }
+    },
+    "dtto": {
+      "domain": "www.dtto.com",
+      "bilanx": {
+        "host": "https://bilanx.dtto.com"
+      },
+      "googleAnalytics": {
+        "trackId": "UA-192447637-1"
+      },
+      "googleTagManager": {
+        "gtmId": "GTM-W5T9HQL"
+      },
+      "alexa": {
+        "domain": "dtto.com"
+      },
+      "comScore": {
+        "trackId": "33827916"
+      },
+      "pptr": {
+        "host": "https://pptr.dtto.com"
+      },
+      "megapx": {
+        "host": "https://megapx.dtto.com"
+      },
+      "sso": {
+        "enabled": false
+      }
+    },
+    "showAdOnDevEnv": false
+  },
+  "isFallback": false,
+  "dynamicIds": [
+    12336,
+    7760,
+    29229,
+    62991
+  ],
+  "customServer": true,
+  "gip": true,
+  "appGip": true,
+  "scriptLoader": []
+}
