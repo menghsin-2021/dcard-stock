@@ -6,7 +6,11 @@ import pandas as pd
 from dash.dependencies import Input, Output
 
 # Load data
-df = pd.read_csv('data/stockdata2.csv', index_col=0, parse_dates=True)
+df_total_like_count = pd.read_csv('data/df_posts_total_like_count.csv', index_col=0, parse_dates=True)
+df_total_like_count_shipping = pd.read_csv('data/df_posts_total_like_count_shipping.csv', index_col=0, parse_dates=True)
+df_2603 = pd.read_csv('data/df_2603_price_20201121.csv', index_col=0, parse_dates=True)
+df_2609 = pd.read_csv('data/df_2609_price_20201121.csv', index_col=0, parse_dates=True)
+df_2615 = pd.read_csv('data/df_2615_price_20201121.csv', index_col=0, parse_dates=True)
 df.index = pd.to_datetime(df['Date'])
 
 # load css
@@ -16,6 +20,7 @@ df.index = pd.to_datetime(df['Date'])
 app = dash.Dash(__name__)
 app.config.suppress_callback_exceptions = True
 
+list_stocks = [2603, 2609, 2615]
 
 def get_options(list_stocks):
     dict_list = []
@@ -49,7 +54,8 @@ app.layout = html.Div(
                     html.Div(className='eight columns div-for-charts bg-grey',  # define the right element
                              children=[
                                  dcc.Graph(id='timeseries', config={'displayModeBar': False}, animate=True),
-                                 dcc.Graph(id='timeseries2', config={'displayModeBar': False}, animate=True)
+                                 dcc.Graph(id='timeseries2', config={'displayModeBar': False}, animate=True),
+                                 dcc.Graph(id='timeseries3', config={'displayModeBar': False}, animate=True)
                              ])
                               ])
         ]
