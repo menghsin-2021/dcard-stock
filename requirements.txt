@@ -1,3 +1,4 @@
+gunicorn
 async-generator==1.10
 attrs==21.2.0
 beautifulsoup4
